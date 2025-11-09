@@ -57,7 +57,7 @@ nav a:hover {
   padding: 6px 12px;
   font-style: italic;
   font-size: 14px;
-   border-radius: 5px; /*para arredondar o botões */
+   border-radius: 5px; /*para arredondar os botões */
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
@@ -110,5 +110,66 @@ nav a:hover {
   background-color: #a0a0a0;
 }
 
+/*  SEÇÃO SOBRE  */
+.sobre {
+background-image: url(file:///D:/Luana/Downloads/fundo.png);
+  min-height: 100vh;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título Sobre */
+.sobre h1 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 40px;
+  color: #ffffff;
+  align-self: flex-start;
+  margin-bottom: 10px;
+   -webkit-text-stroke: 2px black;  /*contorno da letra */
+}
+
+/* Container com imagem e texto */
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 10px;
+}
+
+/* Imagem e logo  */
+.img-personagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+}
+
+.logo-bojack {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.personagens {
+  width: 100%;
+  max-width: 550px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 8px #000;
+}
+
+/* Card do texto */
+.coluna-texto {
+  width: 40%;
+  background-color: #ffffff;
+  color: #000;
+  padding: 25px 20px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+   box-shadow: 4px 4px 8px #000;
+  font-size: 15px;
+  line-height: 2; /*altura do texto */
+}
 
 
