@@ -67,7 +67,7 @@ nav a:hover {
 
 /*SEÇÃO PRINCIPAL*/
 .Home {
-  background-image: url(file:///D:/Luana/Pictures/Roblox/FundoHome.png); 
+  background-image: url(../assets/imgs/FundoHome.png); 
    background-size: cover; /*tamanho da imagem de fundo  */
   background-position: center;
   height: 90vh;
@@ -171,5 +171,76 @@ background-image: url(file:///D:/Luana/Downloads/fundo.png);
   font-size: 15px;
   line-height: 2; /*altura do texto */
 }
+
+/*SEÇÃO PLATAFORMA */
+.plataforma {
+  background-image: url(file:///D:/Luana/Downloads/Desfoque.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+
+/* Conteúdo do texto */
+.plataforma .texto {
+  max-width: 900px;
+}
+
+/* Subtítulo */
+.plataforma h2 {
+  font-size: 22px;
+  font-weight: 400px;
+  margin-bottom: 12px;
+  line-height: 2;
+}
+
+/* Título principal */
+.plataforma h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+/* Texto em destaque */
+.destaque {
+  color: #00e0ff;
+  font-weight: 700;
+}
+
+/* Texto */
+.plataforma p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Botão */
+.descubra {
+  background-color: #00cfff;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 8px;
+  color: #000;
+   font-size: 18px; /* tamanho do botão */
+   box-shadow: 0 0 15px #00cfff;
+}
+
+.descubra:hover {
+  background-color: #02b8e6;
+  box-shadow: #00e0ff;
+
+}
+
 
 
