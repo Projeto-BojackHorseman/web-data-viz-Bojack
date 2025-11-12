@@ -242,5 +242,72 @@ background-image: url(file:///D:/Luana/Downloads/fundo.png);
 
 }
 
+/* SEÇÃO PERSONAGENS */
+.personagens {
+    background-color: #fff;
+    text-align: center;
+    margin: 0; 
+}
+
+.personagens h1 {
+    font-size: 3em;
+    color: #f1c40f;
+}
+
+.personagens h1 span {
+    font-weight: bold;
+}
+
+.personagens h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+.personagens p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Card styling */
+.cards .card-bojack, 
+.cards .card-lynn, 
+.cards .card-princess {
+    width: 250px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.cards .card-bojack img,
+.cards .card-lynn img,
+.cards .card-princess img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cards .card-bojack p, 
+.cards .card-lynn p, 
+.cards .card-princess p {
+    font-size: 1.2em;
+    color: #34495e;
+}
+
+
 
 
